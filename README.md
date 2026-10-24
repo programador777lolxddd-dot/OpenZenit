@@ -4,6 +4,12 @@
 
 > Aviso: es un proyecto educativo diminuto, no un asistente avanzado. Puede memorizar el corpus y generar código incorrecto.
 
+## ⚠️ ¡NO TE ASUSTES SI APARECE ALGO EN TUS ARCHIVOS!
+
+**Es el entrenamiento de la IA.** 🧠💻
+
+OpenZenit puede crear archivos locales para entrenar la IA y guardar el modelo entrenado en tu propio PC. Es parte normal del proceso: no significa automáticamente que haya un virus. No borres esos archivos mientras esté entrenando; espera a que termine.
+
 ## Instalar
 
 ```bash
