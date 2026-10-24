@@ -1,0 +1,8 @@
+[project]
+name = "openzenit"
+version = "0.1.0"
+description = "Pequeño Transformer experimental para aprender generación de texto y código"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+dependencies = ["torch>=2.0"]
