@@ -1,42 +1,94 @@
-# OpenZenit 🌻🔥
+# OpenZenit 🧠🌻
 
-**¡Zenit ha vuelto!** Este repositorio contiene un pequeño Transformer experimental en Python y PyTorch para aprender generación de texto y código.
+<p align="center">
+  <strong>Un pequeño modelo neuronal experimental creado para aprender cómo funciona la generación de texto.</strong>
+  <br>
+  Python · PyTorch · Entrenamiento desde cero
+</p>
 
-> Aviso: es un proyecto educativo diminuto, no un asistente avanzado. Puede memorizar el corpus y generar código incorrecto.
+---
 
-## ⚠️ ¡NO TE ASUSTES SI APARECE ALGO EN TUS ARCHIVOS!
+## 🌌 ¿Qué es OpenZenit?
 
-**Es el entrenamiento de la IA.** 🧠💻
+OpenZenit es un proyecto experimental que utiliza un modelo tipo Transformer para practicar generación de texto y código con Python y PyTorch.
 
-OpenZenit puede crear archivos locales para entrenar la IA y guardar el modelo entrenado en tu propio PC. Es parte normal del proceso: no significa automáticamente que haya un virus. No borres esos archivos mientras esté entrenando; espera a que termine.
+No intenta fingir que ya es una IA gigante: es un proyecto de aprendizaje que irá mejorando versión a versión. Puede producir palabras extrañas, repetir patrones o generar código que no funcione. ¡Los experimentos también forman parte del desarrollo! 🔬
 
-## Instalar
+> **Estado:** primera versión experimental. Los resultados pueden ser incoherentes y no deben tratarse como respuestas fiables.
+
+## ✨ Objetivos del proyecto
+
+- 🧠 Experimentar con una red neuronal generativa.
+- 🐍 Aprender y practicar Python y PyTorch.
+- 🧪 Probar entrenamiento, generación y guardado de modelos.
+- 🚀 Mejorar OpenZenit paso a paso con pruebas reales.
+
+## 🖥️ Requisitos
+
+- Python 3.
+- PyTorch.
+- Las dependencias indicadas en `requirements.txt`.
+- Un equipo capaz de ejecutar un entrenamiento pequeño. El tiempo necesario depende del hardware y de la configuración.
+
+No necesitas una GPU NVIDIA para empezar: PyTorch puede ejecutarse en CPU, aunque el entrenamiento puede tardar más.
+
+## 📦 Instalación
+
+Clona el repositorio y entra en su carpeta:
+
+```bash
+git clone https://github.com/programador777lolxddd-dot/OpenZenit.git
+cd OpenZenit
+```
+
+Instala las dependencias:
 
 ```bash
 python3 -m pip install -r requirements.txt
 ```
 
-Para instalar PyTorch CPU en Linux:
+Si necesitas instalar la versión CPU de PyTorch en Linux, puedes usar:
 
 ```bash
 python3 -m pip install torch --index-url https://download.pytorch.org/whl/cpu
 ```
 
-## Ejecutar
+## ▶️ Ejecutar OpenZenit
+
+Para volver a entrenar el modelo:
 
 ```bash
 python3 mini_codegpt.py --retrain
+```
+
+Para ejecutar el programa sin solicitar un nuevo entrenamiento:
+
+```bash
 python3 mini_codegpt.py
 ```
 
-## ¡Prueba Zenit!
+El entrenamiento puede crear archivos locales para guardar datos o el estado del modelo. Eso puede ser parte normal del funcionamiento; revisa qué archivos genera el programa y no los borres mientras esté trabajando.
 
-https://zenit-amber.vercel.app/
+## 🧪 Un proyecto en evolución
 
-## Licencia
+Las primeras generaciones pueden parecer una mezcla de palabras, fragmentos de código y errores. Eso no significa que el modelo haya aprendido a programar correctamente: generar texto convincente y generar código válido son problemas distintos.
 
-**La licencia actualmente incluida para esta versión es MIT.** Consulta el archivo [LICENSE](LICENSE).
+El progreso se medirá con experimentos y comparaciones entre versiones, no solo por una respuesta graciosa. 😅
 
-También puedes leer el borrador de la **OpenZenit Community License (OZCL) 1.1** en [LICENSE-OZCL.txt](LICENSE-OZCL.txt). Este borrador propone permitir el estudio, las modificaciones y la distribución no comercial, mientras que el uso comercial y el uso comercial de la marca OpenZenit requieren autorización previa por escrito.
+## 🔗 También puedes probar Zenit
 
-> **Importante:** OZCL 1.1 está publicado aquí como BORRADOR y no sustituye la licencia MIT de esta versión. Las copias ya distribuidas bajo MIT conservan los permisos concedidos por esa licencia, conforme a sus términos. No asumas que OZCL se aplica a una versión hasta que el proyecto lo indique expresamente. OZCL es una licencia personalizada y no está aprobada por la Open Source Initiative (OSI).
+¿Quieres conocer el lenguaje de programación Zenit?
+
+- **Sitio web y tutorial:** https://zenit-amber.vercel.app/
+- **Repositorio de OpenZenit:** https://github.com/programador777lolxddd-dot/OpenZenit
+
+## 📜 Licencia
+
+Esta versión está publicada bajo la **licencia MIT**. Consulta el archivo [LICENSE](LICENSE) para leer sus condiciones.
+
+---
+
+<p align="center">
+  <strong>OPENZENIT</strong><br>
+  Aprende. Experimenta. Mejora. 🚀
+</p>
