@@ -82,9 +82,19 @@ El progreso se medirá con experimentos y comparaciones entre versiones, no solo
 - **Sitio web y tutorial:** https://zenit-amber.vercel.app/
 - **Repositorio de OpenZenit:** https://github.com/programador777lolxddd-dot/OpenZenit
 
+## 🧑‍💻 Autoría y atribución
+
+OpenZenit es un proyecto original creado por **programador777lolxddd-dot**.
+
+- **Repositorio original:** https://github.com/programador777lolxddd-dot/OpenZenit
+- **Aviso de autoría:** consulta el archivo [NOTICE](NOTICE).
+- **Licencia:** Apache License 2.0; consulta [LICENSE](LICENSE).
+
+Si compartes o redistribuyes OpenZenit, conserva los avisos de copyright, la licencia y los avisos de atribución aplicables. Si modificas archivos, indica claramente cuáles cambiaste, tal como exige la licencia. La licencia no obliga a anunciar públicamente al autor en cada uso, ni concede permiso para usar la marca OpenZenit como si una versión derivada fuera la oficial.
+
 ## 📜 Licencia
 
-Esta versión está publicada bajo la **licencia MIT**. Consulta el archivo [LICENSE](LICENSE) para leer sus condiciones.
+OpenZenit se distribuye bajo la **Apache License 2.0**, una licencia de código abierto que permite usar, modificar y redistribuir el proyecto, incluso comercialmente, sujeto a sus condiciones.
 
 ---
 
